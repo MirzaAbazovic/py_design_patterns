@@ -49,6 +49,12 @@ Concrete factorise -> Cat factory, Dog factory
 Abstract factory -> Abstract product
 Concrete factorise -> Cat food, Dog food
 
+### Singleton
+
+OO way of prviding global variables. Allows only one object to be instanciated
+Usage: Need cache for whole app. Heavy/costly operations of creation objects.
+Sometimed also considered as antipattern :)  
+
 ## Structural
 
 ## Behavoural

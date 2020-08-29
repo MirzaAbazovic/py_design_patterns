@@ -5,6 +5,7 @@ def test_abs_factory_generates_dog():
     factory = abs_factory.DogFactory()
     #abstract factory
     store = abs_factory.PetStore(factory)
+
     assert store.get_pet_food() == 'Dog food'
     assert store.get_pet().speak() == 'Av Av'
 
@@ -14,6 +15,7 @@ def test_abs_factory_generates_cat():
     factory = abs_factory.CatFactory()
     # abstract factory
     store = abs_factory.PetStore(factory)
+
     assert store.get_pet_food() == 'Cat food'
     assert store.get_pet().speak() == 'Mjau'
 
