@@ -1,9 +1,24 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-;
-src/demo.py,0/1/017d3117848401aff2197ba5c6433fce36fea038
-U
-%src/crational/factory/factory_test.py,c/7/c77baf21464f622c47e7f23547a0342fe9df48aa
-P
- src/crational/factory/factory.py,e/8/e8afa790199d1af589ba350051038c26396bf265
+[
++src/test/creational/builder/test_builder.py,8/a/8a06dffa963213b50f19ab8a1bb1af9a6fe86fda
+V
+&src/main/creational/factory/factory.py,b/a/ba6ae8294dc6cfdc16a11c3ab95b58a7ab0f422d
+_
+/src/main/creational/factory/abstract_factory.py,0/9/09b0e5bfde4526672bdd5deafed3ba917c8a8d09
+_
+/src/test/creational/singleton/test_singleton.py,b/c/bca64be2ccf8438ee359589725b59373b3061362
+Z
+*src/main/creational/singleton/singleton.py,e/5/e5cff2fadef0ad1029b0dfdf60e452244654fdf6
+[
++src/test/creational/factory/test_factory.py,3/e/3e41deddb07e31ca68e90582bfe85c25249d0a34
+d
+4src/test/creational/factory/test_abstract_factory.py,c/5/c55575ad36a67a88a9b7c6da7cd07e30de42208e
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+V
+&src/main/creational/builder/builder.py,7/3/73475d4534ee51bc5b7a7e51bc4d65a6d919bfd5
+@
+requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
