@@ -53,7 +53,20 @@ Concrete factorise -> Cat food, Dog food
 
 OO way of prviding global variables. Allows only one object to be instanciated
 Usage: Need cache for whole app. Heavy/costly operations of creation objects.
-Sometimed also considered as antipattern :)  
+Sometimed also considered as anti-pattern :)  
+
+### Builder
+
+Solution for anti-pattern "telescoping constructor" (exccessive number of constructors)
+
+Roles:
+
+- Director (in charge of building the product using the builder object)
+- Abstract builder (interfaces)
+- Concrete builder (implements interface of abstract builder)
+- Product (object being build)
+
+Dos not rely on polymorphism (like factory and abstract factory), focuses to reduce complexity using divide-and-conquer strategy.
 
 ## Structural
 
