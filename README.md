@@ -30,14 +30,24 @@ Pattern language:
 
 ### Factory
 
-Encaptulates objects creation.
+Encapsulates objects creation.
+
 Useful when:
 
 - not sure what kind of object you will need (uncertainties in type of objects)
 - decisions must be made in runtime what class to use
 
+
 ### Abstract factory
 
+Useful when user (clent) expects multiple related objects (family) but does not know which family until run time
+Example:
+
+Abstract factory -> Pet factory
+Concrete factorise -> Cat factory, Dog factory
+
+Abstract factory -> Abstract product
+Concrete factorise -> Cat food, Dog food
 
 ## Structural
 
