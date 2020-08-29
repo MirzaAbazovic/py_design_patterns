@@ -68,6 +68,13 @@ Roles:
 
 Dos not rely on polymorphism (like factory and abstract factory), focuses to reduce complexity using divide-and-conquer strategy.
 
+### Prototype
+
+Use when creating many identical objects (cloning). Create prototype and then clone it (because maybe creating is expensive).
+
+Related with abstract factory.
+
+
 ## Structural
 
-## Behavoural
+## Behavioural
