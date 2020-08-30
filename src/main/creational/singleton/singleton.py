@@ -8,7 +8,7 @@ class Borg:
 class Singleton(Borg):
     """This class shares all its atributes among all instances"""
 
-    def __init__(self, **kwargs):
+    def __init__(self, **kwargs): #*args and *kwargs are special keyword which allows function to take variable length argument.
         Borg.__init__(self)
         # update the atribute dic by instering key-value pairs
         self._shared_state.update(kwargs)

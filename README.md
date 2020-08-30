@@ -70,10 +70,10 @@ Dos not rely on polymorphism (like factory and abstract factory), focuses to red
 
 ### Prototype
 
-Use when creating many identical objects (cloning). Create prototype and then clone it (because maybe creating is expensive).
+Use when creating many identical objects (cloning). 
+Create prototype and then clone it (because maybe creating is expensive) when you need it.
 
 Related with abstract factory.
-
 
 ## Structural
 

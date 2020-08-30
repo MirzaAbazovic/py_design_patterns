@@ -22,3 +22,9 @@ V
 &src/main/creational/builder/builder.py,7/3/73475d4534ee51bc5b7a7e51bc4d65a6d919bfd5
 @
 requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
+s
+Cvenv/lib64/python3.8/site-packages/pip/_vendor/urllib3/util/ssl_.py,d/9/d99b03819bb3543311638539693eb0e83ca66bc8
+Z
+*src/main/creational/prototype/prototype.py,0/8/088b192cfc9f0fc04ee700e32c26779430938acb
+_
+/src/test/creational/prototype/test_prototype.py,b/5/b51c0df25dabf987e0f87973be2767e0cf6bb3ca
