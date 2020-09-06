@@ -28,3 +28,11 @@ Z
 *src/main/creational/prototype/prototype.py,0/8/088b192cfc9f0fc04ee700e32c26779430938acb
 _
 /src/test/creational/prototype/test_prototype.py,b/5/b51c0df25dabf987e0f87973be2767e0cf6bb3ca
+Z
+*src/main/structural/decorator/decorator.py,b/f/bf73c3b9fe7db6a88b2c591b43ef4f0cde4a5cf8
+_
+/src/test/structural/decorator/test_decorator.py,d/f/df2de6fa58a8ce0307b5715565d2e6326c4a7ca7
+W
+'src/test/structural/proxy/test_proxy.py,f/c/fcd6fd37770a511e66dd4d5f68e0cf23ed60f31a
+R
+"src/main/structural/proxy/proxy.py,e/d/edf7a11d311ea4deb4569594996fbc6633d5087d

@@ -59,7 +59,8 @@ Concrete factorise -> Cat food, Dog food
 
 OO way of providing global variables. 
 Allows only one object to be instantiated
-Usage: Need cache for whole app. Heavy/costly operations of creation objects.
+Usage: Need cache for whole app. 
+Heavy aka costly aka expensive aka resource intensive operations of creation objects.
 Sometimes also considered as anti-pattern.
 
 - [code](src/main/creational/singleton/singleton.py)
@@ -104,5 +105,58 @@ Related with: adapter, composite and strategy.
 
 - [code](src/main/structural/decorator/decorator.py)
 - [test](src/test/structural/decorator/test_decorator.py)
+
+### Proxy
+
+Proxy means ‘in place of’, representing’ or ‘in place of’ or ‘on behalf of’ 
+are literal meanings of proxy and that directly explains Proxy Design Pattern.
+Used for example when creating object that is resource intensive.
+Controls and manage access to the object they are protecting, he is also substitute or placeholder for protected object. 
+Allows you to perform something either before or after the request gets through to the original object (pre and post process hooks).
+
+
+Roles:
+- Producer (resource intensive creation)
+- Artist (Proxy, placeholder to create object when necessary)
+- Client (interacts with Artist-Proxy)
+
+There are some types of proxies (by usage):
+
+- Remote proxy (represent objects located remotely - over the wire, encapsulates (de)marshaling)
+- Virtual proxy (produces default (dummy) results while proxied object is not ready)
+- Protection proxy (uses impersonation to access object that app has no right to use)
+- Smart proxy (adds additional layer of security, ex check is object locked)
+
+Related patterns: Adapter and Decorator
+
+- [code](src/main/structural/proxy/proxy.py)
+- [test](src/test/structural/proxy/test_proxy.py)
+    
+### Adapter
+
+Adapts (translates) incompatible interfaces between client and server ->
+allows objects with incompatible interfaces to collaborate.
+
+This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces.
+
+Solves problems like:
+Reusing code that does not have an interface that a client requires.
+Code with incompatible interfaces work together.
+
+To use an adapter in our code:
+
+1. Client should make a request to the adapter by calling a method on it using the target interface.
+2. Using the Adaptee interface, the Adapter should translate that request on the adaptee.
+3. Result of the call is received the client and he/she is unaware of the presence of the Adapter’s presence.
+
+Related patterns: Bridge and Decorator
+
+References:
+
+- https://www.geeksforgeeks.org/adapter-method-python-design-patterns/
+
+- [code](src/main/structural/adapter/adapter.py)
+- [test](src/test/structural/adapter/test_adapter.py)
+   
 
 ## Behavioural
