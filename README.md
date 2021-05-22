@@ -160,3 +160,5 @@ References:
    
 
 ## Behavioural
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/dashboard?id=MirzaAbazovic_py_design_patterns)
